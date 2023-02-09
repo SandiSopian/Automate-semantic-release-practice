@@ -1,13 +1,12 @@
 name: Test scratch-automate-semantic-release 
-
 on:
   workflow_dispatch:
   
- jobs: 
+jobs:
   test_action:
     runs-on: ubuntu-latest
     steps:
       - uses: SandiSopian/scratch-automate-semantic-release@v1.0.0
-      with:
-        person: 'Superman'
+        with:
+          person: 'Superman'
       
